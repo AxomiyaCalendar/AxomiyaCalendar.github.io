@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA85C" />
+      <stop offset="100%" stop-color="#E87D1E" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE169" />
+      <stop offset="100%" stop-color="#FFB347" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Calendar Body base (Dark earthy brown) -->
+  <rect x="15" y="25" width="70" height="65" rx="14" fill="#29211D" />
+  
+  <!-- Calendar Top Header (Saffron Gradient) -->
+  <path d="M 15 39 C 15 31.268 21.268 25 29 25 L 71 25 C 78.732 25 85 31.268 85 39 L 85 45 L 15 45 Z" fill="url(#primary-grad)" />
+  
+  <!-- Binding Rings -->
+  <rect x="28" y="12" width="8" height="22" rx="4" fill="#FFFFFF" />
+  <rect x="64" y="12" width="8" height="22" rx="4" fill="#FFFFFF" />
+  
+  <!-- Stylized Sun Motif (Almanac/Bihu reference) -->
+  <circle cx="50" cy="65" r="14" fill="url(#accent-grad)" />
+  
+  <!-- Tiny decorative dots representing days -->
+  <circle cx="28" cy="55" r="2.5" fill="#4A3F39" />
+  <circle cx="72" cy="55" r="2.5" fill="#4A3F39" />
+  <circle cx="28" cy="75" r="2.5" fill="#4A3F39" />
+  <circle cx="72" cy="75" r="2.5" fill="#4A3F39" />
+</svg>
